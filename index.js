@@ -17,12 +17,9 @@ const modernTargets = {
 };
 
 module.exports = function(context, options) {
-  const {
-    modules = false,
-    useBuiltIns = false,
-    targets = modernTargets,
-  } = options;
-
+  const modules = options.modules || false;
+  const useBuiltIns = options.useBuiltIns || false;
+  const targets = options.targets || modernTargets;
   const development =
     typeof options.development === "boolean" ? options.development : false;
 
