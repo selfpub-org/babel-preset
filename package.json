@@ -44,7 +44,7 @@
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "@selfpub/eslint-config": "^1.0.0",
-    "eslint": "^5.6.1",
+    "eslint": "^6.1.0",
     "safe-publish-latest": "^1.1.2"
   },
   "peerDependencies": {
