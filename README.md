@@ -1,7 +1,7 @@
 # @selfpub/babel-preset
 
-[![NpmLicense](https://img.shields.io/npm/l/@selfpub/babel-preset.svg)][https://www.npmjs.com/package/@selfpub/babel-preset]
-[![NPM version](https://img.shields.io/npm/v/@selfpub/babel-preset/latest.svg)][https://www.npmjs.com/package/@selfpub/babel-preset]
+[![NpmLicense](https://img.shields.io/npm/l/@selfpub/babel-preset.svg)](https://www.npmjs.com/package/@selfpub/babel-preset)
+[![NPM version](https://img.shields.io/npm/v/@selfpub/babel-preset/latest.svg)](https://www.npmjs.com/package/@selfpub/babel-preset)
 
 Selfpub’s config for Babel transforms.
 
