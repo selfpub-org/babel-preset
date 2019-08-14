@@ -1,2 +1,1 @@
-/* global require, module */
-module.exports = require('./web');
+module.exports = require("./web");
