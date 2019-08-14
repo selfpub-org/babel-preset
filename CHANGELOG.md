@@ -7,7 +7,7 @@
 - fix: Add babel plugins in package  [aa451d5](https://github.com/selfpub-org/eslint-config/commit/aa451d5)
 - fix: Eslint errors  [dd134f2](https://github.com/selfpub-org/eslint-config/commit/dd134f2)
 
-**NPM package:** https://www.npmjs.com/package/@selfpub/ebook-editor/v/1.1.0
+**NPM package:** https://www.npmjs.com/package/@selfpub/babel-preset/v/1.1.0
 
 
 ## 1.0.0 (2018-11-10) :tada: :tada: :tada: First Major Release
@@ -37,7 +37,7 @@
 - Update dependencies list
 - Add docs for module
 
-**NPM package:** https://www.npmjs.com/package/@selfpub/ebook-editor/v/1.0.0
+**NPM package:** https://www.npmjs.com/package/@selfpub/babel-preset/v/1.0.0
 
 
 ## 0.0.2 (2018-10-10)
