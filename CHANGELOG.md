@@ -1,5 +1,12 @@
 # Changelog
 
+## Release v1.1.1
+
+**Changes:**
+- remove useBultins options
+
+**NPM package:** https://www.npmjs.com/package/@selfpub/babel-preset/v/1.1.1
+
 ## Release v1.1.0
 
 **Changes:**

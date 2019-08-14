@@ -17,7 +17,6 @@ module.exports = function webPreset(context, options) {
         require("@babel/preset-env"),
         {
           modules,
-          useBuiltIns,
           targets: {
             browsers: opts.browsers || browsers
           },
