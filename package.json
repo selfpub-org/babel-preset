@@ -1,6 +1,6 @@
 {
   "name": "@selfpub/babel-preset",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Selfpub's babel preset for transforming JavaScript",
   "main": "index.js",
   "repository": {

@@ -1,7 +1,7 @@
 # @selfpub/babel-preset
 
-[![NpmLicense](https://img.shields.io/npm/l/@selfpub/babel-preset.svg)][npm-url]
-[![NPM version](https://img.shields.io/npm/v/@selfpub/babel-preset/latest.svg)][npm-url]
+[![NpmLicense](https://img.shields.io/npm/l/@selfpub/babel-preset.svg)][https://www.npmjs.com/package/@selfpub/babel-preset]
+[![NPM version](https://img.shields.io/npm/v/@selfpub/babel-preset/latest.svg)][https://www.npmjs.com/package/@selfpub/babel-preset]
 
 Selfpub’s config for Babel transforms.
 
@@ -126,8 +126,3 @@ This packages comes with several different presets for you to use, depending on 
         }
       }
       ```
-
-> Note that when using this config, you should also install `@babel/polyfill` as a production dependency (`yarn add @babel/polyfill` or `npm install --save @babel/polyfill`). This package will be used to reduce duplication of common Babel helpers.
-
-
-[npm-url]: https://www.npmjs.com/package/@selfpub/babel-preset

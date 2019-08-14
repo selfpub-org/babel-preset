@@ -1,11 +1,21 @@
-<a name="1.0.0"></a>
+# Changelog
+
+## Release v1.1.0
+
+**Changes:**
+- chore: Update packages  [f3bc06c](https://github.com/selfpub-org/eslint-config/commit/f3bc06c)
+- fix: Add babel plugins in package  [aa451d5](https://github.com/selfpub-org/eslint-config/commit/aa451d5)
+- fix: Eslint errors  [dd134f2](https://github.com/selfpub-org/eslint-config/commit/dd134f2)
+
+**NPM package:** https://www.npmjs.com/package/@selfpub/ebook-editor/v/1.1.0
+
+
 ## 1.0.0 (2018-11-10) :tada: :tada: :tada: First Major Release
 
-### Feature
-
-* Add options for configuring:
-    - `modules`, a boolean indicating whether native ES2015 modules should be transpiled to CommonJS equivalents. Set this option to `false` when you are using a bundler like Rollup or Webpack 2:
-    - `browsers`, a [browserslist](https://github.com/ai/browserslist) string or array, which specifies which browsers to transpile for. Defaults to the list found in `browsers.js`.
+**Changes:**
+- Add options for configuring:
+    * `modules`, a boolean indicating whether native ES2015 modules should be transpiled to CommonJS equivalents. Set this option to `false` when you are using a bundler like Rollup or Webpack 2:
+    * `browsers`, a [browserslist](https://github.com/ai/browserslist) string or array, which specifies which browsers to transpile for. Defaults to the list found in `browsers.js`.
 
       Defaults values:     
       ```json
@@ -22,13 +32,14 @@
         "not Edge < 15"
       ]
       ```
-    - `debug`, a boolean (defaults to `false`) to turn on `@babel/preset-env` debugging
+    * `debug`, a boolean (defaults to `false`) to turn on `@babel/preset-env` debugging
 
-* Update dependencies list
-* Add docs for module
+- Update dependencies list
+- Add docs for module
+
+**NPM package:** https://www.npmjs.com/package/@selfpub/ebook-editor/v/1.0.0
 
 
-<a name="0.0.2"></a>
 ## 0.0.2 (2018-10-10)
 
 ### Fix
@@ -37,7 +48,6 @@
 * Add @selfpub/eslinf-config
 
 
-<a name="0.0.1"></a>
 ## 0.0.1 (2018-10-10)
 
 ### Feature
