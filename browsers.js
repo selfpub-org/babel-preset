@@ -1,4 +1,3 @@
-/* global require, module, process */
 module.exports = [
   "last 2 Chrome versions",
   "not Chrome < 60",
@@ -9,5 +8,5 @@ module.exports = [
   "last 2 Firefox versions",
   "not Firefox < 54",
   "last 2 Edge versions",
-  "not Edge < 15",
+  "not Edge < 15"
 ];
