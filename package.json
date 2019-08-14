@@ -1,6 +1,6 @@
 {
   "name": "@selfpub/babel-preset",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Selfpub's babel preset for transforming JavaScript",
   "main": "index.js",
   "repository": {
@@ -14,44 +14,46 @@
     "selfpub"
   ],
   "homepage": "https://github.com/selfpub-org/babel-preset",
-  "author": "Ilya Reshetnikov <inbox@devxom.tech>",
+  "author": "Ilya Reshetnikov <ilya.reshetniov@devxom.tech>",
   "license": "MIT",
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/plugin-proposal-decorators": "^7.0.0",
-    "@babel/plugin-proposal-do-expressions": "^7.0.0",
-    "@babel/plugin-proposal-export-default-from": "^7.0.0",
-    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
-    "@babel/plugin-proposal-function-bind": "^7.0.0",
-    "@babel/plugin-proposal-function-sent": "^7.0.0",
-    "@babel/plugin-proposal-json-strings": "^7.0.0",
-    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
-    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
-    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
-    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
-    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-    "@babel/plugin-syntax-import-meta": "^7.0.0",
-    "@babel/plugin-transform-classes": "^7.1.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
-    "@babel/polyfill": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-do-expressions": "^7.5.0",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-proposal-function-sent": "^7.5.0",
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/plugin-transform-classes": "^7.5.5",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-core": "^7.0.0-bridge.0"
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@selfpub/eslint-config": "^0.0.2",
-    "eslint": "^5.6.1",
-    "safe-publish-latest": "^1.1.2"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.4.5",
+    "@selfpub/eslint-config": "^2.0.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.5.5"
   },
   "scripts": {
-    "prepublish": "safe-publish-latest",
+    "lint:test": "eslint . -c web.js",
     "lint": "eslint ."
   }
 }
