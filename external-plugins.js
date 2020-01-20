@@ -4,6 +4,8 @@ module.exports = function externalPlugins(options) {
     require.resolve("babel-plugin-dynamic-import-node"),
     require.resolve("@babel/plugin-proposal-class-properties"),
     require.resolve("@babel/plugin-proposal-function-bind"),
-    require.resolve("@babel/plugin-syntax-dynamic-import")
+    require.resolve("@babel/plugin-syntax-dynamic-import"),
+    require.resolve("@babel/plugin-proposal-nullish-coalescing-operator"),
+    require.resolve("@babel/plugin-proposal-optional-chaining")
   ];
 };
