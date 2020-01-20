@@ -5,9 +5,7 @@ module.exports = function webPreset(context, options) {
   const opts = options || {};
   const dev = opts.development;
   const debug = opts.debug || false;
-  const builtins = opts.useBuiltIns || "usage";
   const modules = opts.modules || false;
-  const useBuiltIns = builtins || false;
   const development = typeof dev === "boolean" ? dev : false;
 
   return {
