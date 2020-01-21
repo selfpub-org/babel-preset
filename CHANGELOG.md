@@ -1,5 +1,16 @@
 # Changelog
 
+## Release v1.2.0
+
+**Changes:**
+- unused code removed
+- added plugin @babel/plugin-proposal-nullish-coalescing-operator
+- added plugin @babel/plugin-proposal-optional-chaining
+- added plugin babel-plugin-styled-components
+- added plugin babel-plugin-transform-react-remove-prop-types
+
+**NPM package:** https://www.npmjs.com/package/@selfpub/babel-preset/v/1.2.0
+
 ## Release v1.1.1
 
 **Changes:**
