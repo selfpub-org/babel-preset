@@ -1,5 +1,12 @@
 # Changelog
 
+## Release v1.3.0
+
+**Changes:**
+- update dependencies
+
+**NPM package:** https://www.npmjs.com/package/@selfpub/babel-preset/v/1.3.0
+
 ## Release v1.2.0
 
 **Changes:**
